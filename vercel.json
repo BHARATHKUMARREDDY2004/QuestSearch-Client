@@ -2,8 +2,11 @@
     "version": 2,
     "builds": [
       {
-        "src": "index.html",
-        "use": "@vercel/static"
+        "src": "src/main.jsx",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "dist"
+        }
       }
     ],
     "routes": [
@@ -12,7 +15,6 @@
         "dest": "/index.html"
       }
     ],
-    "ignoreCommand": "git diff --quiet HEAD^ HEAD .",
     "framework": "vite"
   }
   
