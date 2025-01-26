@@ -7,7 +7,7 @@ QuestSearch is a responsive web application designed to search a database of que
 - 🔍 Search questions quickly and efficiently.
 - 📄 Responsive UI for seamless experience across devices.
 - ⚡ Fast interactions using optimized API calls.
-- 🌙 Dark and Light mode support (if applicable).
+- 📚 Efficient pagination for handling large dataset of questions, ensuring smooth user experience and optimized data fetching.
 
 ## 🛠️ Tech Stack
 
